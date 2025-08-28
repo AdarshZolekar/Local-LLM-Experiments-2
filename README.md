@@ -31,7 +31,7 @@ Production-ready Streamlit apps for running **Deepseek reasoning models** either
    ```
 3. Install deps and run:
    ```bash
-   pip install -r requirements.txt
+   pip install -r Requirements.txt
    streamlit run deepseek-r1-streamlit.py
    ```
 
@@ -43,7 +43,7 @@ Production-ready Streamlit apps for running **Deepseek reasoning models** either
    ```
 2. Install deps and run:
    ```bash
-   pip install -r requirements.txt
+   pip install -r Requirements.txt
    streamlit run deepseek-groq-streamlit.py
    ```
 
@@ -53,18 +53,18 @@ Production-ready Streamlit apps for running **Deepseek reasoning models** either
 
 ```text
 .
-├─ deepseek-groq-streamlit.py     # Groq 70B via OpenAI-compatible API
-├─ deepseek-r1-streamlit.py       # Ollama local 1.5B
-├─ requirements.txt               # Runtime dependencies
-├─ .env.example                   # Environment variable template
+├─ deepseek-groq-streamlit.py    
+├─ deepseek-r1-streamlit.py     
+├─ Requirements.txt             
+├─ .env.example                  
 ├─ .gitignore
-├─ LICENSE
-├─ CONTRIBUTING.md
-├─ SECURITY.md
-├─ docs/
-│  └─ troubleshooting.md
-└─ .github/
-   └─ workflows/
+├─ License
+├─ Contributing.md
+├─ Security.md
+├─ Docs/
+│  └─ Troubleshooting.md
+└─ .Github/
+   └─ Workflows/
       └─ ci.yml
 ```
 
@@ -81,13 +81,13 @@ Production-ready Streamlit apps for running **Deepseek reasoning models** either
 
 - Format and lint:
   ```bash
-  pip install -r requirements-dev.txt
+  pip install -r Requirements-dev.txt
   ruff check .
   ruff format .
   ```
 - Run CI locally:
   ```bash
-  pytest -q  # optional if you add tests
+  pytest -q 
   ```
 
 ---
@@ -101,10 +101,10 @@ Production-ready Streamlit apps for running **Deepseek reasoning models** either
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [License.md](License.md).
 
 ---
 
 ## Security
 
-Do not commit real API keys. Use `.env` or runtime injection. See [SECURITY.md](SECURITY.md).
+Do not commit real API keys. Use `.env` or runtime injection. See [Security.md](Security.md).
