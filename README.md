@@ -101,7 +101,7 @@ Production-ready Streamlit apps for running **Deepseek reasoning models** either
 
 ## License
 
-MIT. See [License.md](License.md).
+MIT. See [License](License).
 
 ---
 
