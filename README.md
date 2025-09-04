@@ -15,7 +15,7 @@ Production-ready Streamlit apps for running **Deepseek reasoning models** either
 
 ## Apps
 
-- `deepseek-r1-streamlit.py` — Local, offline via **Ollama**.
+- `deepseek-r1-streamlit.py` — Local, offline via **Ollama**. 
 - `deepseek-groq-streamlit.py` — Cloud, requires **GROQ_API_KEY**.
 
 ---
