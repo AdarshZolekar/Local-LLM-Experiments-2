@@ -4,12 +4,12 @@ Production-ready Streamlit apps for running **Deepseek reasoning models** either
 
 ---
 
-## Why this repo
+## Why this repo 
 
 - Local-first privacy with **Deepseek R1 1.5B** on **Ollama**
 - Cloud performance with **Deepseek R1 Distill Llama 70B** on **Groq LPUs**
 - Streaming chat UI with optional reasoning display
-- Clear, minimal code organized for students and teams.
+- Clear and optimized code organized for students and teams.
 
 ---
 
